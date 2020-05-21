@@ -28,9 +28,9 @@ def main():
     df = pd.read_csv(filename)
     # Show Dataset
 
-    if st.checkbox("Show Dataset"):
-        number = st.number_input("Number of Rows to View")
-        st.dataframe(df.head(number))
+    # Show Rows
+    if st.button("Row Names"):
+        st.write(df.head())
 
     # Show Columns
     if st.button("Column Names"):
@@ -63,6 +63,10 @@ def main():
     # Show Datatypes
     if st.button("Data Types"):
         st.write(df.dtypes)
+
+    # Show Satisitics
+    if st.button("Know the Statistical elements of your Data"):
+        st.write(df.describe())
 
     # Show Summary
     if st.checkbox("Summary"):
