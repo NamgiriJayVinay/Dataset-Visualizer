@@ -133,4 +133,4 @@ Project  Source code Link: [https://github.com/NamgiriJayVinay/Dataset-Visualize
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/jay-vinay/
-[product-screenshot]: datasettheme.jpg
+[product-screenshot]: datasettheme.png
